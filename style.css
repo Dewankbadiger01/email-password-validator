@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 350px;
+}
+
+.form{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus{
+    border-color: #007bff;
+}
+
+small{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+/* JS can add these classes */
+.success{
+    border-color: green;
+}
+
+.error{
+    border-color: red;
+}
+#email-msg,
+#password-msg{
+    color: red;
+    font-size: 14px;
+}
